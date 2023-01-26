@@ -7,4 +7,4 @@
  - View: 데이터를 적절하게 유저에게 보여줌
  - Control, Template(Django): 사용자의 입력과 이벤트에 반응하여 Model과 View를 업데이트
  
- 
+ ![1](https://user-images.githubusercontent.com/114639257/214827881-49b07961-8f1c-4cc0-8c83-71a290b7f59a.png)
