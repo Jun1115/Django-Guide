@@ -10,6 +10,9 @@
  [![텍스트](https://tecoble.techcourse.co.kr/static/c73f913a7c220ec8cb3ee9a8579468b4/91709/mvc.png)](https://tecoble.techcourse.co.kr/post/2021-04-26-mvc/)
  
 ### 2. Django 개념 
+
 ### 3. Project와 APP
+
 ### 4. Settings.py 
+
 ### 5. Manage.py
