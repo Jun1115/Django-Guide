@@ -3,7 +3,7 @@
 Djano란 보안이 우수하고 유지보수가 편리한 웹사이트를 신속하게 개발하는 하도록 도움을 주는 파이썬 웹 프레임워크이다. (무료 오픈소스 웹 애플리케이션 프레임워크)
 
 ### 1. MVC & MTV 
-<img src="[이미지주소.png](https://tecoble.techcourse.co.kr/static/c73f913a7c220ec8cb3ee9a8579468b4/91709/mvc.png)" width="200" height="400"/>(https://tecoble.techcourse.co.kr/post/2021-04-26-mvc/)
+<img src="[이미지주소.png](https://tecoble.techcourse.co.kr/static/c73f913a7c220ec8cb3ee9a8579468b4/91709/mvc.png)(https://tecoble.techcourse.co.kr/post/2021-04-26-mvc/)" width="800" height="400"/>
  - Model: 안전하게 데이터를 저장
  - View: 데이터를 적절하게 유저에게 보여줌
  - Control, Template(Django): 사용자의 입력과 이벤트에 반응하여 Model과 View를 업데이트
