@@ -1,4 +1,4 @@
-# Django-Guide
+# Django-boot
 
 인프런 Django 초보 가이드
 
