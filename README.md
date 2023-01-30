@@ -1,5 +1,7 @@
 # Django-boot
 
+## Django 기초
+
 Djano란 보안이 우수하고 유지보수가 편리한 웹사이트를 신속하게 개발하는 하도록 도움을 주는 파이썬 웹 프레임워크이다.
 
 ### 1. MVC & MTV 
@@ -14,15 +16,16 @@ Djano란 보안이 우수하고 유지보수가 편리한 웹사이트를 신속
 회색: 장고가 뒤에서 다양한 처리를 도와줌
 WSGI(Web Server Gateway Interface): 웹서버와 장고를 적절하게 결합시켜주는 역할
 MODEL : DATABASE에서 쿼리를 따로 작성할 필요가 없이 변수만 다루면 알아서 데이터를 받는 역할
-VIEW : 
-
 구성이 복잡한 이유: 
 다수의 사람이 한번의 작업을 하게될 경우 문제가 발생할 가능성이 높았음. 이를 단계를 분리하는 방법으로 해결
 
-
-
 ### 3. Project와 APP
+Project 는 하나의 웹사이트
+APP 은 웹사이트 속에 다양한 기능들 Ex) 블로그, 게시판, 전자상거래와 관련된 기능들 등
+APP 은 다른 프로젝트에서 활용 가능
 
-### 4. Settings.py 
+## Django 설치
 
-### 5. Manage.py
+1. 터미널에 pip install django 입력
+2. django-admin 명령어 사용 가능(입력 시 사용방법 출력)
+3. django-admin startproject myproject(폴더명) .(현재 위치, 폴더 지정 안해주면 myproject 폴더 안에 myproject 폴더 생성)
