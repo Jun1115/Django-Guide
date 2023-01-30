@@ -86,7 +86,7 @@ python manage.py runserver 8888
 
 <img src = "https://user-images.githubusercontent.com/114639257/215419855-2d1157be-ce48-4bab-8334-0c8fad549778.PNG" width="400px">
 
-## 포트의 개념
+### 포트의 개념
 
 <img src = https://user-images.githubusercontent.com/114639257/215433568-5389ac3c-e7f4-43b2-aa53-c5bf7189067b.PNG" width="400px">
 
