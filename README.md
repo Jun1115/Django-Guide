@@ -40,7 +40,8 @@ APP 은 다른 프로젝트에서 활용 가능
 
 6. ctrl + c 입력 (서버 실행 취소)
 
-8. 이미 8000번 포트를 사용중이라면 실행이 안됨 ▶ runserver 뒤에 다른 포트 번호 입력 Ex) python manage.py runserver 8888
+7. 이미 8000번 포트를 사용중이라면 실행이 안됨 ▶ runserver 뒤에 다른 포트 번호 입력 Ex) python manage.py runserver 8888
+
 <img src = "https://user-images.githubusercontent.com/114639257/215419855-2d1157be-ce48-4bab-8334-0c8fad549778.PNG"
 width="400px">
 
