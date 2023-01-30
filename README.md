@@ -36,10 +36,9 @@ Djano란 보안이 우수하고 유지보수가 편리한 웹사이트를 신속
    <img src = "https://user-images.githubusercontent.com/114639257/215417529-a20d677e-6351-459e-afef-2deed637689c.PNG" width="400px">
 
 5. python manage.py runserver 입력 (runserver는 장고 기본 서버가 실행되고 8000번 포트로 접속할 수 있음)
-<p align="center">
    <img src = "https://user-images.githubusercontent.com/114639257/215418829-4c5755e9-d8d1-401f-9662-73dad68b174f.PNG" width="400px">
+   
    <img src = "https://user-images.githubusercontent.com/114639257/215418834-f5d4d5b6-87a0-4f3c-974c-85c2222bd6a0.PNG" width="400px">
-<p>
 6. 서버 실행 취소 ▶ ctrl + c
 
 7. 이미 8000번 포트를 사용중이라면 실행이 안됨 ▶ runserver 뒤에 다른 포트 번호 입력 Ex) python manage.py runserver 8888
