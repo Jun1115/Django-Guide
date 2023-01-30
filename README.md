@@ -32,4 +32,4 @@ APP 은 다른 프로젝트에서 활용 가능
 <img src = "https://user-images.githubusercontent.com/114639257/215416131-8c5a46e7-f90e-4c8c-ad34-7867dde38d01.PNG" width="200px">
 
 4. 터미널에 python manage.py 입력하면 사용가능한 여러가지 명령어 출력 (myproject 폴더에 __pycache__ 라는 파일 자동생성)
-<img src = "https://user-images.githubusercontent.com/114639257/215417529-a20d677e-6351-459e-afef-2deed637689c.PNG" width="200px">
+<img src = "https://user-images.githubusercontent.com/114639257/215417529-a20d677e-6351-459e-afef-2deed637689c.PNG" width="400px">
