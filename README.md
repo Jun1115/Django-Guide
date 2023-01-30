@@ -106,9 +106,18 @@ http://127.0.0.1
 - 이러한 문제를 해결하기 위해 PORT 존재
 
 ### Port Listening 
-Ex) 1번 프로그램은 80번 PORT 에 접속해 있다.
+Ex) 1번 서버는 80번 PORT 에 접속해 있다.
 
 <img src = "https://user-images.githubusercontent.com/114639257/215435737-0bc68544-20df-45e5-8223-fce568bcad55.jpg" width="400px">
+
+### 특정 서버에 Listening 하려면 그에 맞는 PORT 에 접속
+
+~~~
+http://127.0.0.1.8888
+~~~
+
+<img src = "https://user-images.githubusercontent.com/114639257/215436937-e5ec369c-663e-468b-83f9-f2e288cd111e.PNG" width="400px">
+
 
 <br/><br/><br/>
 
