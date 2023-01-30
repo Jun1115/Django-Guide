@@ -33,8 +33,6 @@ Djano란 보안이 우수하고 유지보수가 편리한 웹사이트를 신속
 pip install django 
 ~~~
 
-- 설치 시 django-admin 명령어 사용 가능
-
 ## Django 사용가능 명령어 출력
 
 ~~~
@@ -51,20 +49,39 @@ django-admin startproject myproject(폴더명) .
 
 <img src = "https://user-images.githubusercontent.com/114639257/215416131-8c5a46e7-f90e-4c8c-ad34-7867dde38d01.PNG" width="200px">
 
+## manage.py 사용가능 명령어 출력
+
+~~~
+python manage.py
+~~~
+
+- myproject 폴더에 __pycache__ 파일 자동생성
+
+<img src = "https://user-images.githubusercontent.com/114639257/215417529-a20d677e-6351-459e-afef-2deed637689c.PNG" width="400px">
+
+## Django 기본 서버 실행
  
+~~~
+python manage.py runserver
+~~~
 
-4. < python manage.py > ▶ 사용가능 명령어 출력 (myproject 폴더에 __pycache__ 파일 자동생성)
+- Default 8000번 포트
 
-   <img src = "https://user-images.githubusercontent.com/114639257/215417529-a20d677e-6351-459e-afef-2deed637689c.PNG" width="400px">
+<img src = "https://user-images.githubusercontent.com/114639257/215418829-4c5755e9-d8d1-401f-9662-73dad68b174f.PNG" width="400px">
+<img src = "https://user-images.githubusercontent.com/114639257/215418834-f5d4d5b6-87a0-4f3c-974c-85c2222bd6a0.PNG" width="400px">
 
-5. < python manage.py runserver > ▶ runserver 입력 시 django 기본 서버 실행 (디폴트 8000번 포트)
-   <img src = "https://user-images.githubusercontent.com/114639257/215418829-4c5755e9-d8d1-401f-9662-73dad68b174f.PNG" width="400px">
-   
-   <img src = "https://user-images.githubusercontent.com/114639257/215418834-f5d4d5b6-87a0-4f3c-974c-85c2222bd6a0.PNG" width="400px">
-6. 서버 실행 취소 ▶ < ctrl(컨트롤) + c >
+## 서버 실행 취소
 
-7. 이미 8000번 포트를 사용중이라면 실행 X ▶ runserver 뒤에 다른 포트 번호 입력 Ex) < python manage.py runserver 8888 >
+~~~
+ctrl(컨트롤) + c
+~~~
 
-   <img src = "https://user-images.githubusercontent.com/114639257/215419855-2d1157be-ce48-4bab-8334-0c8fad549778.PNG" width="400px">
+## 이미 특정 포트를 사용중이라면 실행 X
+- runserver 뒤에 다른 포트 번호 입력
+~~~
+python manage.py runserver 8888
+~~~
+
+<img src = "https://user-images.githubusercontent.com/114639257/215419855-2d1157be-ce48-4bab-8334-0c8fad549778.PNG" width="400px">
 
 
