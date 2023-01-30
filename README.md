@@ -88,7 +88,7 @@ python manage.py runserver 8888
 
 ### 포트의 개념
 
-<img src = "https://user-images.githubusercontent.com/114639257/215433568-5389ac3c-e7f4-43b2-aa53-c5bf7189067b.PNG" width="400px">
+<img src = "https://user-images.githubusercontent.com/114639257/215434523-d69d32d7-8d6f-4002-b1be-0bff6ee0cfb3.jpg" width="400px">
 
 ### A번 컴퓨터
 - 내 컴퓨터
