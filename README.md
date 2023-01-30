@@ -2,7 +2,7 @@
 
 Djano란 보안이 우수하고 유지보수가 편리한 웹사이트를 신속하게 개발하는 하도록 도움을 주는 파이썬 웹 프레임워크이다.
 
-## 1. MVC & MTV 
+## 1. Design Pattern MVC & MTV 
 [<img src = "https://tecoble.techcourse.co.kr/static/c73f913a7c220ec8cb3ee9a8579468b4/91709/mvc.png" width="400px">](https://tecoble.techcourse.co.kr/post/2021-04-26-mvc/)
  - Model: 안전하게 데이터를 저장
  - View: 데이터를 적절하게 유저에게 보여줌
@@ -22,7 +22,7 @@ Djano란 보안이 우수하고 유지보수가 편리한 웹사이트를 신속
  - APP 은 웹사이트 속에 다양한 기능들 Ex) 블로그, 게시판, 전자상거래와 관련된 기능들 등
  - APP 은 다른 프로젝트에서 활용 가능
 
-<br/><br/><br/><br/><br/>
+<br/><br/><br/>
 
 # Django 설치방법
 
