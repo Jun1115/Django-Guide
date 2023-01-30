@@ -30,11 +30,23 @@ Djano란 보안이 우수하고 유지보수가 편리한 웹사이트를 신속
 ## Django 설치
 
 ~~~
-pip install django ▶ django 설치 (설치 완료 시 django-admin 명령어 사용 가능)
+pip install django 
+~~~
+▶ 설치 시 django-admin 명령어 사용 가능
+
+## Django 사용가능 명령어
+
+~~~
+django-admin
 ~~~
 
-2. < django-admin > ▶ 사용가능 명령어 출력
-3. < django-admin startproject myproject(폴더명) . > ▶ . 은 현재 위치, 폴더 지정 안해주면 myproject 폴더 안에 myproject 폴더 생성
+## Django 사용가능 명령어
+
+~~~
+django-admin startproject myproject(폴더명) .
+~~~
+
+▶ . 은 현재 위치, 폴더 지정 안해주면 myproject 폴더 안에 myproject 폴더 생성
    <img src = "https://user-images.githubusercontent.com/114639257/215416131-8c5a46e7-f90e-4c8c-ad34-7867dde38d01.PNG" width="200px">
 
 4. < python manage.py > ▶ 사용가능 명령어 출력 (myproject 폴더에 __pycache__ 파일 자동생성)
