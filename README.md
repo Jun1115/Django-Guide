@@ -38,7 +38,8 @@ APP 은 다른 프로젝트에서 활용 가능
 <img src = "https://user-images.githubusercontent.com/114639257/215418829-4c5755e9-d8d1-401f-9662-73dad68b174f.PNG" width="400px">
 <img src = "https://user-images.githubusercontent.com/114639257/215418834-f5d4d5b6-87a0-4f3c-974c-85c2222bd6a0.PNG" width="400px">
 
-
+6. ctrl + c 입력 (서버 실행 취소)
+7. 이미 8000번 포트를 사용중이라면 실행이 안됨 ▶ runserver 뒤에 다른 포트 번호 입력 Ex) python manage.py runserver 8888
 
 
 
