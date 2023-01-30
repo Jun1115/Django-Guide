@@ -26,10 +26,12 @@ APP 은 다른 프로젝트에서 활용 가능
 
 ## Django 설치
 
-1. 터미널에 pip install django 입력하여 django 설치
-2. 설치 완료 시 django-admin 명령어 사용 가능(입력 시 여러가지 명령어 출력)
-3. 터미널에 django-admin startproject myproject(폴더명) .(현재 위치, 폴더 지정 안해주면 myproject 폴더 안에 myproject 폴더 생성)
+1. 터미널에 pip install django 입력하여 django 설치 (설치 완료 시 django-admin 명령어 사용 가능)
+2. django-admin 입력하면 사용가능 명령어 출력
+3. django-admin startproject myproject(폴더명) . 입력(. 은 현재 위치, 폴더 지정 안해주면 myproject 폴더 안에 myproject 폴더 생성)
 <img src = "https://user-images.githubusercontent.com/114639257/215416131-8c5a46e7-f90e-4c8c-ad34-7867dde38d01.PNG" width="200px">
 
-4. 터미널에 python manage.py 입력하면 사용가능한 여러가지 명령어 출력 (myproject 폴더에 __pycache__ 라는 파일 자동생성)
+4. python manage.py 입력하면 사용가능 명령어 출력 (myproject 폴더에 __pycache__ 파일 자동생성)
 <img src = "https://user-images.githubusercontent.com/114639257/215417529-a20d677e-6351-459e-afef-2deed637689c.PNG" width="400px">
+
+5. python manage.py runserver 입력 (runserver는 장고 기본 서버가 실행되고 8000번 포트로 접속할 수 있음)
