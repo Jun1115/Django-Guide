@@ -36,7 +36,7 @@ APP 은 다른 프로젝트에서 활용 가능
 
 5. python manage.py runserver 입력 (runserver는 장고 기본 서버가 실행되고 8000번 포트로 접속할 수 있음)
 <img src = "https://user-images.githubusercontent.com/114639257/215418829-4c5755e9-d8d1-401f-9662-73dad68b174f.PNG" width="400px">
-<img src = "https://user-images.githubusercontent.com/114639257/215418834-f5d4d5b6-87a0-4f3c-974c-85c2222bd6a0.PNG">
+<img src = "https://user-images.githubusercontent.com/114639257/215418834-f5d4d5b6-87a0-4f3c-974c-85c2222bd6a0.PNG" width="400px">
 
 
 
