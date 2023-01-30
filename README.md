@@ -87,19 +87,23 @@ python manage.py runserver 8888
 <img src = "https://user-images.githubusercontent.com/114639257/215419855-2d1157be-ce48-4bab-8334-0c8fad549778.PNG" width="400px">
 
 ## 포트의 개념
-A번 컴퓨터
+
+<img src = https://user-images.githubusercontent.com/114639257/215433568-5389ac3c-e7f4-43b2-aa53-c5bf7189067b.PNG" width="400px">
+
+### A번 컴퓨터
 - 내 컴퓨터
-B번 컴퓨터
+
+### B번 컴퓨터
 - IP Address : 127.0.0.1 를 가진 서버 컴퓨터 (3개의 서버소프트웨어가 설치되어 동작중)
 
-A 에서 B 로 접속하려면 
+### A 에서 B 로 접속하려면 
 
 ~~~
 http://127.0.0.1
 ~~~
-하지만 이 주소에는 여러가지 서버소프트웨어가 동작중이라 어떤 것이 통신할지 알수 없음
 
-이러한 문제를 해결하기 위해 PORT 존재
+- 하지만 이 주소에는 여러가지 서버소프트웨어가 동작중이라 어떤 것이 통신할지 알수 없음
+- 이러한 문제를 해결하기 위해 PORT 존재
 
 <br/><br/><br/>
 
