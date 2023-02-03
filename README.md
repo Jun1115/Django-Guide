@@ -145,4 +145,20 @@ django-admin startapp myapp
 
 <img src = "https://user-images.githubusercontent.com/114639257/216617456-e7b58fcb-8c00-4898-a7ce-0e4ab2ea1394.PNG" width="400px">
 
+## myproject/urls.py
+- urlpatterns 반드시 정의
 
+~~~
+from django.contrib import admin
+from django.urls import path, include
+# http://127.0.0.1/ 
+# http://127.0.0.1/app/
+
+# http://127.0.0.1/create/
+# http://127.0.0.1/read/1/
+
+urlpatterns = [
+    path("admin/", admin.site.urls),
+    path('', include('myapp.urls'))
+]
+~~~
