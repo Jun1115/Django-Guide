@@ -145,6 +145,9 @@ django-admin startapp myapp
 
 <img src = "https://user-images.githubusercontent.com/114639257/216617456-e7b58fcb-8c00-4898-a7ce-0e4ab2ea1394.PNG" width="400px">
 
+## 예시 http://127.0.0.1/ 의 접속을 myapp/views 로 import(위임)해보기
+
+### myproject/urls.py
 ~~~
 myproject URL Configuration
 
@@ -161,11 +164,6 @@ Including another URLconf
     1. Import the include() function: from django.urls import include, path
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 ~~~
-
-## 예시 http://127.0.0.1/ 의 접속을 myapp/views 로 import(위임)해보기
-
-### myproject/urls.py
-
 ~~~
 from django.contrib import admin
 from django.urls import path, include
