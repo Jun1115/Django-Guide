@@ -136,3 +136,4 @@ http://127.0.0.1.8888
 django-admin startapp myapp
 ~~~
 
+<img src = "https://user-images.githubusercontent.com/114639257/216616244-096787d7-fbf1-4a2b-9db0-241a429cad31.PNG" width="400px">
