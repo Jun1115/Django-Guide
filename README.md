@@ -143,4 +143,4 @@ django-admin startapp myapp
 - Route = 경로
 - 사용자가 접속한 각각의 Route 를 누가 처리할 것인가를 지정하는 것
 
-<img src = " " width="200px">
+<img src = "https://user-images.githubusercontent.com/114639257/216617456-e7b58fcb-8c00-4898-a7ce-0e4ab2ea1394.PNG" width="200px">
