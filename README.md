@@ -145,8 +145,26 @@ django-admin startapp myapp
 
 <img src = "https://user-images.githubusercontent.com/114639257/216617456-e7b58fcb-8c00-4898-a7ce-0e4ab2ea1394.PNG" width="400px">
 
-## myproject/urls.py
-- urlpatterns 반드시 정의
+~~~
+myproject URL Configuration
+
+The `urlpatterns` list routes URLs to views. For more information please see:
+    https://docs.djangoproject.com/en/4.1/topics/http/urls/
+Examples:
+Function views
+    1. Add an import:  from my_app import views
+    2. Add a URL to urlpatterns:  path('', views.home, name='home')
+Class-based views
+    1. Add an import:  from other_app.views import Home
+    2. Add a URL to urlpatterns:  path('', Home.as_view(), name='home')
+Including another URLconf
+    1. Import the include() function: from django.urls import include, path
+    2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
+~~~
+
+## 예시 http://127.0.0.1/ 의 접속을 myapp/views 로 import(위임)해보기
+
+### myproject/urls.py
 
 ~~~
 from django.contrib import admin
@@ -163,7 +181,7 @@ urlpatterns = [
 ]
 ~~~
 
-## myapp/urls.py
+### myapp/urls.py
 
 - myapp 폴더에 urls.py 파일 생성
 
