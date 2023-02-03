@@ -137,3 +137,10 @@ django-admin startapp myapp
 ~~~
 
 <img src = "https://user-images.githubusercontent.com/114639257/216616244-096787d7-fbf1-4a2b-9db0-241a429cad31.PNG" width="200px">
+
+## Routong
+- 어떤 웹 프레임워크를 사용하든 제일 먼저 하는 작업
+- Route = 경로
+- 사용자가 접속한 각각의 Route 를 누가 처리할 것인가를 지정하는 것
+
+<img src = " " width="200px">
