@@ -164,6 +164,9 @@ urlpatterns = [
 ~~~
 
 ## myapp/urls.py
+
+- myapp 폴더에 urls.py 파일 생성
+
 ~~~
 from django.urls import path
 from myapp import views
