@@ -32,7 +32,7 @@ Djano란 보안이 우수하고 유지보수가 편리한 웹사이트를 신속
 ## Django 설치
 
 ~~~
-pip install django 
+python pip -m install django 
 ~~~
 
 ## Django 사용가능 명령어 출력
