@@ -209,7 +209,7 @@ def Read(request, id):
 ~~~
 
 ### Ex) /read/1 으로 접속했다면?
-- myproject/urls.py ▶ myapp/urls.py ▶ myapp/views.py ▶ read 함수 
+- 작동방향 = myproject/urls.py ▶ myapp/urls.py ▶ myapp/views.py ▶ read 함수 
 
 <img src = "https://user-images.githubusercontent.com/114639257/216767781-199c6b6b-bc3b-4677-bbe4-33e2bc0042ca.PNG" width="600px">
 <img src = "https://user-images.githubusercontent.com/114639257/216767575-fa6e0df7-16d3-456e-a146-83eacaad89fa.PNG" width="200px">
