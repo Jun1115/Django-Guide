@@ -208,6 +208,8 @@ def Read(request, id):
     return HttpResponse('Read'+id)
 ~~~
 
+###결과
+- Ex) /read/1 으로 접속했다면?
 <img src = "https://user-images.githubusercontent.com/114639257/216767575-fa6e0df7-16d3-456e-a146-83eacaad89fa.PNG" width="200px">
 <img src = "https://user-images.githubusercontent.com/114639257/216767582-40be8dd6-500b-4794-bd4d-88479334b755.PNG" width="200px">
 <img src = "https://user-images.githubusercontent.com/114639257/216767579-8a72c826-3df5-4086-9c92-3fdc13cdfdbe.PNG" width="200px">
