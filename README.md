@@ -182,7 +182,7 @@ urlpatterns = [
 ### myapp/urls.py
 
 - myapp 폴더에 urls.py 파일 생성
-
+- read/<id>/ = <>를 이용하여 바뀔 수 있는 값의 이름을 지정
 ~~~
 from django.urls import path
 from myapp import views
@@ -194,7 +194,7 @@ urlpatterns = [
 ~~~
 
 ### myapp/views.py
-
+- Read 함수의 2번째 인자로 id(=바뀔 수 있는 값의 이름)
 ~~~
 from django.shortcuts import render, HttpResponse
 
@@ -209,7 +209,7 @@ def Read(request, id):
 ~~~
 
 ### Ex) /read/1 으로 접속했다면?
-1. myproject/urls.py ▶ myapp/urls.py ▶ myapp/views.py ▶ read 함수 
+- myproject/urls.py ▶ myapp/urls.py ▶ myapp/views.py ▶ read 함수 
 
 <img src = "https://user-images.githubusercontent.com/114639257/216767781-199c6b6b-bc3b-4677-bbe4-33e2bc0042ca.PNG" width="600px">
 <img src = "https://user-images.githubusercontent.com/114639257/216767575-fa6e0df7-16d3-456e-a146-83eacaad89fa.PNG" width="200px">
