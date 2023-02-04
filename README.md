@@ -189,8 +189,27 @@ from myapp import views
 urlpatterns = [
     path('', views.index),
     path('create/', views.create),
-    path('read/<id>/', views.read),
-    path('update/<id>/', views.update),
-    path('delete/', views.delete)
+    path('read/<id>/', views.read)
 ]
 ~~~
+
+### myapp/views.py
+
+~~~
+from django.shortcuts import render, HttpResponse
+
+def index(request):
+    return HttpResponse('Welcome!')
+    
+def Create(request):
+    return HttpResponse('Create')
+    
+def Read(request, id):
+    return HttpResponse('Read'+id)
+~~~
+
+<img src = "https://user-images.githubusercontent.com/114639257/216616244-096787d7-fbf1-4a2b-9db0-241a429cad31.PNG" width="200px">
+<img src = "https://user-images.githubusercontent.com/114639257/216616244-096787d7-fbf1-4a2b-9db0-241a429cad31.PNG" width="200px">
+<img src = "https://user-images.githubusercontent.com/114639257/216616244-096787d7-fbf1-4a2b-9db0-241a429cad31.PNG" width="200px">
+<img src = "https://user-images.githubusercontent.com/114639257/216616244-096787d7-fbf1-4a2b-9db0-241a429cad31.PNG" width="200px">
+
