@@ -217,3 +217,5 @@ def Read(request, id):
 <img src = "https://user-images.githubusercontent.com/114639257/216767579-8a72c826-3df5-4086-9c92-3fdc13cdfdbe.PNG" width="200px">
 <img src = "https://user-images.githubusercontent.com/114639257/216767581-9de883f7-e980-4146-a019-5e198071ed72.PNG" width="200px">
 
+
+
